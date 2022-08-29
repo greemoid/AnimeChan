@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AnimeChan</string>
+    <string name="show_favorite_quotes">Show favorite quotes</string>
+    <string name="get_quote">get quote</string>
+    <string name="like_button">like button</string>
+</resources>
