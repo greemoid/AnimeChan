@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".presentation.MainActivity">
 
     <CheckBox
         android:id="@+id/checkbox_favorite"
@@ -21,7 +20,7 @@
         android:gravity="center"
         android:layout_gravity="center">
 
-        <TextView
+        <com.greemoid.animechan.presentation.CorrectTextView
             android:id="@+id/tv_quote"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -30,9 +29,9 @@
             android:layout_weight="1"
             android:layout_margin="@dimen/padding_8dp"
             android:gravity="center"
-            tools:text="first quote from something\nauthor"/>
+            tools:text="first quote from something\nauthor\nanime"/>
 
-        <ImageButton
+        <com.greemoid.animechan.presentation.CorrectImageButton
             android:id="@+id/button_add_favorite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,7 +42,7 @@
 
     </LinearLayout>
 
-    <ProgressBar
+    <com.greemoid.animechan.presentation.CorrectProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
@@ -51,7 +50,7 @@
         android:visibility="invisible"
         android:indeterminate="true" />
 
-        <Button
+        <com.greemoid.animechan.presentation.CorrectButton
             android:id="@+id/button_get_quote"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
