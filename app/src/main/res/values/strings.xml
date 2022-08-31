@@ -3,4 +3,8 @@
     <string name="show_favorite_quotes">Show favorite quotes</string>
     <string name="get_quote">get quote</string>
     <string name="like_button">like button</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_cached_data">No Cached Data</string>
+    <string name="service_unavailable">Service Unavailable</string>
+    <string name="generic_error">Something went wrong…</string>
 </resources>
